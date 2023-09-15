@@ -2,12 +2,12 @@ public class MediaStats {
 
    public static void main(String[]args) {
 
-      int releaseA=2015;
-      int runTimeA=2;
-      int releaseB=2014;
-      int runTimeB=3;
-      int releaseC=2020;
-      int runTimeC=2;
+      int releaseA = 2015;
+      int runTimeA = 2;
+      int releaseB = 2014;
+      int runTimeB = 3;
+      int releaseC = 2020;
+      int runTimeC = 2;
  
          String sanAn = ("San Andreas");
          String inter = ("Interstellar");
