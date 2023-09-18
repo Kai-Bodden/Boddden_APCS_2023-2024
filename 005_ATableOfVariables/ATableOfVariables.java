@@ -12,10 +12,11 @@ public class ATableOfVariables {
         int c3r2 = 8;
         int c3r3 = 27;
         int c3r4 = 64;
-            System.out.println("a    a^2    a^3");
-            System.out.println(c1r1 + "    " + c2r1 + "      " + c3r1);
-            System.out.println(c1r2 + "    " + c2r2 + "      " + c3r2);
-            System.out.println(c1r3 + "    " + c2r3 + "      " + c3r3);
-            System.out.println(c1r4 + "    " + c2r4 + "     " + c3r4);
+
+        System.out.println("a    a^2    a^3");
+        System.out.println(c1r1 + "    " + c2r1 + "      " + c3r1);
+        System.out.println(c1r2 + "    " + c2r2 + "      " + c3r2);
+        System.out.println(c1r3 + "    " + c2r3 + "      " + c3r3);
+        System.out.println(c1r4 + "    " + c2r4 + "     " + c3r4);
     }
 }
