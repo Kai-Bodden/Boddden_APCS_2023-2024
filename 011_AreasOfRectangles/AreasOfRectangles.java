@@ -15,7 +15,7 @@ public class AreasOfRectangles {
         double heightFour = 90029384.0 / convInToCm;
         double widthFive = 600000.0 / convCmToYds;
         double heightFive = (8343491034.0 / convMmToCm) / convCmToYds;
-        
+        //doubles can handle larger numbers, but need a .0 at end
 
         double recOne = (widthOne * heightOne);
         double recTwo = (widthTwo * heightTwo);

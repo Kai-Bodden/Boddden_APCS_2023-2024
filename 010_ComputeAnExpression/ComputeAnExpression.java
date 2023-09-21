@@ -8,7 +8,9 @@ public class ComputeAnExpression {
         double fifth = 45.5;
         double sixth = 3.5;
         double equation = (first * second - third * fourth) / (fifth - sixth);
+        //doing math, has pemdas automatically
         System.out.println(equation);
+
     
     }
 }
