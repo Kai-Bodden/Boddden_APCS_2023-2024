@@ -3,7 +3,6 @@ public class BearCounter {
         String bearDescStart = ("There are ");
         String bearDescEnd = (" bears in the forest.");
         int numBears = 0;
-        String BearCount = (bearDescStart + numBears + bearDescEnd);
 
         System.out.println(bearDescStart + numBears + bearDescEnd);
         numBears++;
