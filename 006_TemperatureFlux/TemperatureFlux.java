@@ -18,3 +18,14 @@ public class TemperatureFlux {
     }
     
 }
+
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+-Extra lines at the end. I won't dock you points now, but I will next time.
+1/1 - Comments
+
+*/

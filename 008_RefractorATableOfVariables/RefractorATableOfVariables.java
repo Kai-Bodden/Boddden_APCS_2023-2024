@@ -20,3 +20,12 @@ public class RefractorATableOfVariables {
         System.out.println(c1r4 + "    " + c2r4 + "     " + c3r4);
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
