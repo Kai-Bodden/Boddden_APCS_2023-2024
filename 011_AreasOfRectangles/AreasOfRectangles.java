@@ -30,3 +30,12 @@ public class AreasOfRectangles {
         System.out.println(recFive + " yards");
     }    
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

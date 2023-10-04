@@ -20,3 +20,12 @@ public class BearCounter {
 //i can use this skill to alter a varible throughout the duration of my code
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
