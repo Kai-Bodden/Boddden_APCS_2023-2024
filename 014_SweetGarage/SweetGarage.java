@@ -5,7 +5,7 @@ public class SweetGarage {
         Car hotDog = new Car(2048, 2_000_000, "Franks", "Footlong", true);
         Car ted = new Car(2001, 243_000, "Subaru", "Forester");
         Car octane = new Car(2018, 2_000, "Rocket League", "Octane");
-
+//each car must have the variable in the correct place as the correct type
         String carOneName = toyota.manufacturerName;
         String carOneModel = toyota.modelName;
         int carOneMiles = toyota.milesDriven;
@@ -53,7 +53,7 @@ public class SweetGarage {
         System.out.println("Car 5:");
         System.out.println(templateForCarFive);
         octane.revEngine();
-        
+        //.revEngine and engage turbo are printed automatically through the premade class
     
         
        

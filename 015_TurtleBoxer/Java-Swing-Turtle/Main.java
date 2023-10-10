@@ -38,6 +38,7 @@ public class Main {
     lebron.turn(180);
     lebron.forward(40);
     habitat.show(true);
+    //this printed in something called world on my computer, outside of VScode
  //Finally, set the world to be visible with a boolean. Ex: worldName.setVisible(the proper boolean);
   }
 }
