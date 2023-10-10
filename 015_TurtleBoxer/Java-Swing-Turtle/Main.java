@@ -26,8 +26,19 @@ public class Main {
     lebron.turnRight();
     lebron.forward(20);
     lebron.turnRight();
+    lebron.forward(20);
+    lebron.turnRight();
+    lebron.forward(20);
+    lebron.turn(180);
+    lebron.forward(40);
+    lebron.turnLeft();
+    lebron.forward(20);
+    lebron.turnLeft();
     lebron.forward(40);
     habitat.show(true);
+
+
+    
 
 
     
