@@ -20,28 +20,24 @@ public class Main {
     */
     lebron.forward(40);
     lebron.turnRight();
-    lebron.forward(40);
-    lebron.turnRight();
-    lebron.forward(40);
-    lebron.turnRight();
     lebron.forward(20);
     lebron.turnRight();
-    lebron.forward(20);
+    lebron.forward(40);
     lebron.turnRight();
     lebron.forward(20);
     lebron.turn(180);
     lebron.forward(40);
     lebron.turnLeft();
+    lebron.forward(40);
+    lebron.turnLeft();
     lebron.forward(20);
     lebron.turnLeft();
+    lebron.forward(20);
+    lebron.turnLeft();
+    lebron.forward(20);
+    lebron.turn(180);
     lebron.forward(40);
     habitat.show(true);
-
-
-    
-
-
-    
-    //Finally, set the world to be visible with a boolean. Ex: worldName.setVisible(the proper boolean);
+ //Finally, set the world to be visible with a boolean. Ex: worldName.setVisible(the proper boolean);
   }
 }
