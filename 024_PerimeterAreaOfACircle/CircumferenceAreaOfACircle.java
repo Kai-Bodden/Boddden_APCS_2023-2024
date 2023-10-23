@@ -5,7 +5,9 @@ public class CircumferenceAreaOfACircle {
         System.out.println("Hello, what is the radius of your circle? ");
         double radius = scan.nextDouble();
         double perimeter = radius * 2 * Math.PI;
-        System.out.println(perimeter);
+        double area = Math.PI * (Math.pow(radius, 2.0));
+        System.out.println("The circumference of the circle is: " + perimeter);
+        System.out.println("The are of the circle is: " + area);
         //more use of math object
 
     }
