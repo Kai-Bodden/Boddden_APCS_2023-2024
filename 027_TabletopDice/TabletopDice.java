@@ -15,7 +15,7 @@ public class TabletopDice {
         System.out.println("The twelve sided die rolled a: " + d12);
         int d20 = (int)(1 + (Math.random() * 20));
         System.out.println("The twenty sided die rolled a: " + d20);
-
+        
         /* almost forgot that if i use the int d10 in percentile, it will always be 10x d10. Also used (int) to chop off the double value 
         giving an int. writing int alone didn't work. Assuming it was because Math.random give a double. Had to look up how Math.random works. 
         The min is the (x +...) and the max is (...*x). 
