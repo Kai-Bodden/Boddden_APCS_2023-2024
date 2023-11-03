@@ -72,5 +72,5 @@ public class IsItLegalForYou {
             System.out.println("You cannot enroll in Medicare.");
         }
     }
-    
+    //else if is useful especially for speed. elses skipped if if is true
 }
