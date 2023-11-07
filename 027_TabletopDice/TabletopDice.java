@@ -20,8 +20,5 @@ public class TabletopDice {
         giving an int. writing int alone didn't work. Assuming it was because Math.random give a double. Had to look up how Math.random works. 
         The min is the (x +...) and the max is (...*x). 
         */
-
-
-
     }
 }

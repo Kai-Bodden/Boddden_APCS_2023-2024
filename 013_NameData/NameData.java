@@ -7,9 +7,6 @@ public class NameData {
         System.out.println("Uppercase????: "+Kai.nameUpperCase);
         System.out.println("How long is my name? " + Kai.nameLength);
         //classes use outside info to add to my new code
-        
-
-
     }
 
 

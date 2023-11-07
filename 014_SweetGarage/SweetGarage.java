@@ -6,7 +6,7 @@ public class SweetGarage {
         Car ted = new Car(2001, 243_000, "Subaru", "Forester");
         Car octane = new Car(2018, 2_000, "Rocket League", "Octane");
 //each car must have the variable in the correct place as the correct type
-        String carOneName = toyota.manufacturerName;
+        // String carOneName = toyota.manufacturerName;
         String carOneModel = toyota.modelName;
         int carOneMiles = toyota.milesDriven;
         int carOneYear = toyota.year;
@@ -29,7 +29,7 @@ public class SweetGarage {
          
 
 
-        String templateForCarOne = ("This car is a " + carOneYear + " " + carOneName +" "+ carOneModel + ", and it has " + carOneMiles + " miles.");
+        String templateForCarOne = ("This car is a " + carOneYear + " " + toyota.manufacturerName +" "+ carOneModel + ", and it has " + carOneMiles + " miles.");
         System.out.println("Car 1:");
         System.out.println(templateForCarOne);
         toyota.engageTurbo();
@@ -54,9 +54,5 @@ public class SweetGarage {
         System.out.println(templateForCarFive);
         octane.revEngine();
         //.revEngine and engage turbo are printed automatically through the premade class
-    
-        
-       
-        
     }
 }

@@ -23,10 +23,5 @@ public class DistanceAcrossEarth {
         double distanceKm = 1.609 * distance ; 
         System.out.println("The distance between these coordinates is: " + distanceKm + "km");
 //haversine formula, using math object for cos and absolute value, learned how coordinates work 
-
-
-
-
-
     }
 }

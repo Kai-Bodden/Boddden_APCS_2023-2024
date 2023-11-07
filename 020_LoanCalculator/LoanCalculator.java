@@ -16,8 +16,6 @@ public class LoanCalculator {
         System.out.println("Your monthly interest is: " + monthlyInterest);
         double monthlyPayment = principleBalance/remainingMonths + monthlyInterest ;
         System.out.println("Your monthly payment is: " + monthlyPayment);
-
         //the system will print one line at a time when i tell it to scan after a print. 
-    }
-    
+    }    
 }

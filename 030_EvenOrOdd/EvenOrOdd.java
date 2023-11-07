@@ -14,6 +14,5 @@ public class EvenOrOdd {
             System.out.println("Odd");
         }
     //first time using if. If anything else than desired, else if can help
-
     }
 }

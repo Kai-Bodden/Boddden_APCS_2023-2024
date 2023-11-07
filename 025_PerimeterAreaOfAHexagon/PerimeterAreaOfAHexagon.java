@@ -9,6 +9,5 @@ public class PerimeterAreaOfAHexagon {
         System.out.println("The perimeter of your hexagon is: " + perimeter);
         System.out.println("The area of your hexagon is: " + area); 
 //math.sqrt helped as well as knowing pemdas
-    }
-    
+    }    
 }

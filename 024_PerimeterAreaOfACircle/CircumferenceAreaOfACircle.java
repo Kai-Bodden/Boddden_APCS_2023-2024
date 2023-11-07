@@ -9,6 +9,5 @@ public class CircumferenceAreaOfACircle {
         System.out.println("The circumference of the circle is: " + perimeter);
         System.out.println("The are of the circle is: " + area);
         //more use of math object
-
     }
 }

@@ -11,8 +11,5 @@ public class MaximumIntergers {
         System.out.println("Overflow max is " +overflow);
         System.out.println("Ocweflow min is " + underflow);
 //if you go past the max it resets to the min and vice versa
-
-
-}
-    
+    } 
 }

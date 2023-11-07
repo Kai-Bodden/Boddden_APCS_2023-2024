@@ -1,7 +1,5 @@
 public class MediaStats {
-
    public static void main(String[]args) {
-
       int releaseA = 2015;
       int runTimeA = 2;
       int releaseB = 2014;
