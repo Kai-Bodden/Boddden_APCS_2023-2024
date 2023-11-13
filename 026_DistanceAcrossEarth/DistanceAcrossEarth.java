@@ -25,3 +25,12 @@ public class DistanceAcrossEarth {
 //haversine formula, using math object for cos and absolute value, learned how coordinates work 
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
