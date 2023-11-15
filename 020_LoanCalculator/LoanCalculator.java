@@ -19,3 +19,12 @@ public class LoanCalculator {
         //the system will print one line at a time when i tell it to scan after a print. 
     }    
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
