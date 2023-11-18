@@ -20,12 +20,17 @@ public class DistanceAcrossEarth {
         double yEquation = (12430 * (Math.abs(latOneMinLatTwo) / 360));
         double xEquation = (24901 * (Math.abs(lngOneMinLngTwo) / 360)) * (Math.cos(latOnePlusLatTwo / 2));
         double distance = Math.sqrt((2 * Math.pow(xEquation, 2.0)) + (2 * Math.pow(yEquation, 2.0)));
-        System.out.println("The distance between these coordinates is: " + distance + "miles.");
+        double distanceKm = 1.609 * distance ; 
+        System.out.println("The distance between these coordinates is: " + distanceKm + "km");
 //haversine formula, using math object for cos and absolute value, learned how coordinates work 
-
-
-
-
-
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

@@ -21,7 +21,14 @@ public class CarBuilderOne {
         System.out.println("I have found your perfect car! ");
         System.out.println("A " + perfectCar.year + " " + perfectCar.manufacturerName + " " + perfectCar.modelName + " , with " + perfectCar.milesDriven + " miles.");
 //used scan object to create values for the car object
-    
-
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

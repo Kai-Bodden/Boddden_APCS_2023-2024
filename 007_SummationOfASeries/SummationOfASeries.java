@@ -12,8 +12,7 @@ public class SummationOfASeries {
         //adding multiple ints 
         //must be int variable, ints cannot convert to strings
         int sum = (a + b + c + d + e + f + g + h +i);
-            System.out.println(sum);
-    
+            System.out.println(sum);   
     }
 }
 

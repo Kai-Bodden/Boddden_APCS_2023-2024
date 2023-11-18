@@ -9,6 +9,14 @@ public class CircumferenceAreaOfACircle {
         System.out.println("The circumference of the circle is: " + perimeter);
         System.out.println("The are of the circle is: " + area);
         //more use of math object
-
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

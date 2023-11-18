@@ -12,11 +12,7 @@ public class TemperatureFlux {
         System.out.println(tempHigh);
         System.out.println(tempLow);
         System.out.println(tempDifference);
-             
-            
-
-    }
-    
+    }    
 }
 
 

@@ -15,8 +15,14 @@ public class LorumIpsumStringMethods {
         System.out.println("Relacing the o's with x's, gives the new blob: " + oForX);
         System.out.println("Does the blob constain the letter Z? " + trim.contains(letterOne));
         //we can use string methods without having to add any objects
-
-
-        
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
