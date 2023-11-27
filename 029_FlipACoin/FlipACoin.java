@@ -12,3 +12,12 @@ public class FlipACoin {
     }   
 }
 //else if anything else is != which is useful when looking for more specific values and vice vesra
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

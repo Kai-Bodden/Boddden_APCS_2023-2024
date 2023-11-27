@@ -74,3 +74,12 @@ public class IsItLegalForYou {
     }
     //else if is useful especially for speed. elses skipped if if is true
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

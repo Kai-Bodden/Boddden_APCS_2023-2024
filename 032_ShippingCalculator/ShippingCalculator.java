@@ -32,3 +32,12 @@ public class ShippingCalculator {
     }
 }
 //the and means both must be true, allowing for more specification 
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

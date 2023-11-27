@@ -16,3 +16,12 @@ public class EvenOrOdd {
     //first time using if. If anything else than desired, else if can help
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

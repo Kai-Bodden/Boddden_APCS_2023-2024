@@ -10,3 +10,12 @@ public class SubstringPrinter {
         substring can help use a part of a string*/
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
