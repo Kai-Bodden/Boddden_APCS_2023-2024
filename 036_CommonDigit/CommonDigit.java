@@ -7,9 +7,9 @@ public class CommonDigit {
     System.out.println("Please provide another number between 25 and 75");
     int num2 = scan.nextInt();
 
-    if( (num1 / 10)== (num2 / 10)|| ( num1 / 10 )==( num2 % 10)||  (num1 % 10)== ( num2 /10) ||  ( num1 % 10) == ( num2 % 10))
+    if( (num1 / 10) == (num2 / 10)|| ( num1 / 10 )==( num2 % 10)||  (num1 % 10)== ( num2 /10) ||  ( num1 % 10) == ( num2 % 10))
     {
-        System.out.println("There is a common digit of either," + );
+        System.out.println("There is a common digit of either,");
     }
     else 
     {
