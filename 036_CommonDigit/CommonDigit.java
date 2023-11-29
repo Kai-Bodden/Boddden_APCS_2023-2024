@@ -7,13 +7,30 @@ public class CommonDigit {
     System.out.println("Please provide another number between 25 and 75");
     int num2 = scan.nextInt();
 
-    if( (num1 / 10) == (num2 / 10)|| ( num1 / 10 )==( num2 % 10)||  (num1 % 10)== ( num2 /10) ||  ( num1 % 10) == ( num2 % 10))
+    if( 25<=num1 && 75>=num1 && 25<=num2 && 75>=num2 )
     {
-        System.out.println("There is a common digit of either,");
+        //set each varible to then compare, using first1num and second1num as the possible common value
+       int first1num = num1 % 10;
+       int second1num = (num1 - first1num) / 10;
+       int first2num = num2 % 10;
+       int second2num = (num2 - first2num) / 10;
+       if ( second1num == second2num || second1num == first2num)
+       {
+        System.out.println("the first and second integers have a matching value of "+ second1num);
+       }
+       else if ( first1num == second1num || first1num == first2num)
+       {
+        System.out.println("the first and second integers have a matching value of " + first1num);
+       }
+       else
+       {
+        System.out.println("No matching values");
+       }
     }
     else 
     {
-        System.out.println("There is not a common digit");
+        System.out.println("Invalid input");
     }
     }
 }
+//modulo and if statements to evaluate every possible common integer, else for anything else
