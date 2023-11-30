@@ -9,6 +9,7 @@ public class SimpleCounter {
         //while my given condition is true, the follwing code will execute
         {
             System.out.println(count);
+            //will add one each time
             count++;
         }
     }
