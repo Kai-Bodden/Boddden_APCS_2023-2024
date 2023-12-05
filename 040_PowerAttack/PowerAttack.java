@@ -4,6 +4,7 @@ public class PowerAttack {
         int strength = 3;
         int health = 13;
 
+        //while loop encompasing everything else
         while (health > 0){
         int attack = (int)(1 + (Math.random() * 10));
         System.out.println("Your strength is " + strength);
@@ -11,6 +12,7 @@ public class PowerAttack {
         int total = (attack + strength);
         System.out.println("You have an attack of " + total + " hit points.");
 
+        //if the attack works
         if(total >= 11){
             int damage = (int)(1 + (Math.random() * 3));
             if (damage == 1){
@@ -30,6 +32,8 @@ public class PowerAttack {
             System.out.println("Your attack was below the armor level, attack again.");
         }
      } 
+     //this only prints when the while loop is completed
      System.out.println("You win, the monsters health is " + health + ". You avoided calc ab with Liam McLay.");
+
     }
 }

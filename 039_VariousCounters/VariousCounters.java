@@ -4,6 +4,7 @@ public class VariousCounters {
         int count2 = 103436;
         int count3 = 1000;
 
+        //while the count is less than 100, it will print every even number
        while (count1 <= 100) {
             if (count1%2 == 0) {
                 System.out.println(count1);
@@ -13,6 +14,7 @@ public class VariousCounters {
                 count1++;
             }
         }
+        //every number divisible by 76
         while (count2 <= 2000007) {
             if (count2%76 == 0) {
                 System.out.println(count2);
@@ -22,6 +24,7 @@ public class VariousCounters {
                 count2++;
             }            
         }
+        //will add subtract add subtract until the count reaches 2000
         while (count3 <= 2000) {
             System.out.println(count3);
             count3 = count3 + 7;
