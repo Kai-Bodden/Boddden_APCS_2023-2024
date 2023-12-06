@@ -34,3 +34,12 @@ public class CommonDigit {
     }
 }
 //modulo and if statements to evaluate every possible common integer, else for anything else
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
