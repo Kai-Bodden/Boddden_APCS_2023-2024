@@ -21,3 +21,12 @@ public class DivisibleInRange{
     }
 }
 //reminds me of a search feature, where I am searching for specific instances of something, and how many times it shows up 
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
