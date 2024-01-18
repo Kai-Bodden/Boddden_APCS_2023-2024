@@ -53,3 +53,11 @@ public class ZodiacCalculatorOne {
     }
 }
 //using user provided info from main, it is plugged in and spit out as a message
+
+/*
+
+3/3 - Compile/Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
