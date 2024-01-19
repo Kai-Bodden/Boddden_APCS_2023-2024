@@ -10,3 +10,11 @@ public class HelloWorldButAMethod {
     }
 }
 //used a separate method and called upon it to print in main 
+
+/*
+
+3/3 - Compile/Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

@@ -15,3 +15,11 @@ public class NameGreeting{
     }
 }
 //in this case, the custom method is a mold that uses the input to create a funal output
+
+/*
+
+3/3 - Compile/Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

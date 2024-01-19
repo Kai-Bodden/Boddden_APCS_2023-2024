@@ -33,3 +33,11 @@ public class DateTranslator{
     }
 }
 //the user is essentially picking which custom method will be printed through the if statement
+
+/*
+
+3/3 - Compile/Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
