@@ -7,14 +7,14 @@ public class StaticMenu {
         //initialize
         StaticMenuItem.itemName = "basketball";
         StaticMenuItem.itemDescription = "orange and round";
-        StaticMenuItem.printItem();
-
-        StaticMenuItem.itemName = "LeBron";
-        StaticMenuItem.itemDescription = "The GOAT";
-        StaticMenuItem.printItem();
-
         StaticMenuItem.itemName = "Hat";
         StaticMenuItem.itemDescription = "goes on head";
+        StaticMenuItem.itemName = "LeBron";
+        StaticMenuItem.itemDescription = "The GOAT";
+
+        StaticMenuItem.printItem();
+        StaticMenuItem.printItem();    
         StaticMenuItem.printItem();
     }
 }
+//when updated they become permanent across the class

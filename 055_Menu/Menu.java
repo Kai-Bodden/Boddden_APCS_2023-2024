@@ -11,3 +11,4 @@ public class Menu {
         item3.printItem();
     }
 }
+//creates its own version each time

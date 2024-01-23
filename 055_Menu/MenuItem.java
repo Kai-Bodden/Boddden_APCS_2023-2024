@@ -1,7 +1,7 @@
 public class MenuItem {
     //variables
-    String itemName;
-    String itemDescription;
+    public String itemName;
+    public String itemDescription;
     //constructor, not method :)
     public MenuItem(String itemName, String itemDescription) {
         this.itemName = itemName;
