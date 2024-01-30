@@ -6,6 +6,7 @@ public class Pen {
     public boolean capOff;
     public boolean clickedOut;
 
+//base pen
 public Pen(){
     colorOfInk = "black";
     colorOfPen = "gray";
@@ -14,6 +15,7 @@ public Pen(){
     capOff = true;
 }
 
+//pen with changing descriptions
 public Pen(String pColorOfInk, String pColorOfPen, String pCapOrClickey, int pInkRemaining){
     colorOfInk = pColorOfInk;
     colorOfPen = pColorOfPen;
