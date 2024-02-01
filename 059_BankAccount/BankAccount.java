@@ -7,7 +7,7 @@ public class BankAccount {
     public double balanceChange;
 
 public BankAccount(String bUserName, String bAccountType, double bCurrentBalance, double bInterestRate, boolean bIsOverdrafted){
-    username = bUserName;
+    userName = bUserName;
     accountType = bAccountType;
     currentBalance = bCurrentBalance;
     interestRate = bInterestRate;
@@ -36,6 +36,7 @@ public void updateBalance(double balanceChange){
     currentBalance = currentBalance + balanceChange;
 }
 
-public void applyInterest();
-    currentBalance = currentBalance + currentBalance*interestRate;
+public void applyInterest(){
+    currentBalance = (currentBalance + (currentBalance*interestRate));
+}
 }
