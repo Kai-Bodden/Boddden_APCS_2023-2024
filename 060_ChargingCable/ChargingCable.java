@@ -12,7 +12,7 @@ public ChargingCable(String brand, int length, String connectionType){
 public void chargerDesc(){
     System.out.println("This is a " + length + " inch " + brand + " " + connectionType);
 }
-
+//getter
 public String getConnectionType(){
     return connectionType;
 }

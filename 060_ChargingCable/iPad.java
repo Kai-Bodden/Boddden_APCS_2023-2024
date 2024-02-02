@@ -5,7 +5,7 @@ public class iPad {
 public iPad(ChargingCable cord, int charge){
     this.charge = charge;
 }
-
+//setter
 public void charging(String connectionType){
     if(connectionType.equals("Lightning")){
         while ( charge<100){
