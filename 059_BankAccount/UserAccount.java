@@ -1,5 +1,6 @@
 public class UserAccount {
     public static void main(String[] args) {
+        //userdata first since bankaccount would need userdata
         BankData userData = new BankData();
         BankAccount user = new BankAccount("Kai Bodden", "checking", 100, 2.5, false);
         
