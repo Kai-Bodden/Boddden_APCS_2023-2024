@@ -5,6 +5,10 @@ public class Phone {
     public String color; 
     public String connectionTypePhone;
     public int charge;
+    public String userText;
+    public String userMusic;
+    public boolean userPower;
+    public String userCall;
 
 public Phone(){
     brand = "apple";
@@ -30,7 +34,6 @@ public Phone(String brand, int model, String size){
     connectionTypePhone = "Lightning";
     charge = 100;
 }
-
 public Phone(ChargingCable cord, int charge){
     this.charge = charge;
 }
@@ -50,5 +53,30 @@ public void charging(String connectionType){
 }
 public static void main(String[] args) {
 }
+public void phoneDesc(){
+    System.out.println("You have a " + color + " " + brand + " " + model + " " + size);
 }
+public void text(String userText){
+    this.userText = userText;
+    System.out.println(userText);
+}
+public void music(String userMusic){
+    this.userMusic = userMusic;
+    System.out.println("Now playing " + userMusic);
+}
+public void power(boolean userPower){
+    this.userPower = userPower;
+    if(userPower){
+        System.out.println("The phone is on");
+    }
+    else{
+        System.out.println("The phone is off");
+    }
+}
+public void call(String userCall){
+    this.userCall = userCall;
+    System.out.println("Now calling " + userCall);
+}
+}
+//idk what to comment im tired
 
