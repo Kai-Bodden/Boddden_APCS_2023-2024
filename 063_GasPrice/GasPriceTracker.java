@@ -24,11 +24,8 @@ public class GasPriceTracker {
         this.price += amountToInc;
     }
 
-    public void printPrice(){
-        System.out.println(name + ":" + price);
-    }
-
-    public static void printAllPrice()
+   
+ 
    
 
 }
