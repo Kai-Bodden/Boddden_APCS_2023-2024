@@ -20,6 +20,15 @@ public class GasPriceTracker {
         this.price = price;
     }
 
+    public void incPrice(double amountToInc){
+        this.price += amountToInc;
+    }
+
+    public void printPrice(){
+        System.out.println(name + ":" + price);
+    }
+
+    public static void printAllPrice()
    
 
 }
