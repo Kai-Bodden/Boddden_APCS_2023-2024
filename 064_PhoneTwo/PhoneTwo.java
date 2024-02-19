@@ -77,4 +77,7 @@ public void call(String userCall){
     this.userCall = userCall;
     System.out.println("Now calling " + userCall);
 }
+public String toString(){
+    return "Phone info: " + color + " " + brand + " " + model + " " + size + " with a charge of " + charge + " and a " + connectionTypePhone + " connection type.";
+}
 }

@@ -1,14 +1,15 @@
 public class HandTwo {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-       /*  ChargingCable cableOne = new ChargingCable("apple", 6, "USB-C");
-        ChargingCable cableTwo = new ChargingCable("apple", 10, "Lightning");
-        ChargingCable cableThree = new ChargingCable("anker", 3, "USB Micro");*/
-        PhoneTwo phoneOne = new PhoneTwo();
-        PhoneTwo phoneTwo = new PhoneTwo("apple", 13, "mini", "purple", "USB-C", 100);
-        PhoneTwo phoneThree = new PhoneTwo("samsung", 10, "pro");
-//calling stuff
-        phoneOne.phoneDesc();
-        phoneOne.charging(cableOne.getConnectionType());
+        PhoneTwo phoneA = new PhoneTwo();
+        PhoneTwo phoneB = new PhoneTwo("Samsung", 10, "mini", "Orange", "USB-C", 69);
+        PhoneTwo phoneC = new PhoneTwo("Huaweii", 20, "Max");
+
+        System.out.println(phoneA.toString());
+        System.out.println(phoneB.toString());
+        System.out.println(phoneC.toString());
+
+        phoneA.text("Texting from my new iPhone 15");
+        phoneB.music("Freestyle - Lil Baby");
+        phoneC.call("Incoming call from: MOM");
     }
 }
