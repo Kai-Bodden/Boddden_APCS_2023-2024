@@ -3,6 +3,7 @@ public class Hero{
     private int health;
     private int armor;
     private int strength;
+    
 
     //constuctor
     public Hero(String name, int health, int armor, int strength){
@@ -12,9 +13,11 @@ public class Hero{
         this.strength = strength;
     }
 
-    public void attack(int attack){
-        this.attack = attack;
-        return attack;
+    public void heroDesc(){
+        System.out.println("The hero: "+ name + " has entered the dungeon.");
+        System.out.println("Health: " + health);
+        System.out.println("Armor: " + armor);
+        System.out.println("Strength: " + strength);
     }
     public void victoryCheer(){
         System.out.println("VICTORY!!!! YEAHHHHH.");
@@ -32,9 +35,14 @@ public class Hero{
     public int getArmor(){
         return armor;
     }
-    public int getStrength(){
+    public int strength(){
         return strength;
     }
+    public int getAttack(){
+        int attack = (int)(1 + (Math.random() * 10)) + strength;
+        return attack;
+    }
+    
     
     //setter
     public void setHealth(int health){
