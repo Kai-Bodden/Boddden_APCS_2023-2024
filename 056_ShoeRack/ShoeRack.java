@@ -23,3 +23,11 @@ public class ShoeRack {
     }
 }
 //now each one is making its own instance
+
+/*
+
+3/3 - Compile/Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

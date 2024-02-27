@@ -15,3 +15,12 @@ public class Dungeon{
     
     }
 }
+
+/*
+
+1/3 - Compile/Content
+-Not quite finished? Good start.
+1/1 - Formatting
+1/1 - Comments
+
+*/

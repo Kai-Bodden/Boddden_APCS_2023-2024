@@ -15,3 +15,12 @@ public class GasSign {
         System.out.println(premium.getName() + ": " + premium.getPrice());
     }
 }
+
+/*
+
+1/3 - Compile/Content
+-Looks pretty good overall, but it wouldn't compile for me.
+1/1 - Formatting
+1/1 - Comments
+
+*/
