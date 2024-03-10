@@ -1,10 +1,12 @@
 public class Transaction {
+    //variables
     private String itemName;
     private String itemDesc;
     private double itemCost;
     private double itemSalePrice;
     private double itemProfit;
 
+    //transaction constructor
     public Transaction(String itemName, String itemDesc, double itemCost, double itemSalePrice){
         this.itemName = itemName;
         this.itemDesc = itemDesc;
@@ -12,6 +14,7 @@ public class Transaction {
         this.itemSalePrice = itemSalePrice;
     }
 
+    //getters
     public String getItemName(){
         return itemName;
     }
@@ -30,10 +33,12 @@ public class Transaction {
         return itemProfit;
     }
     public double getItemMargin(){
-        double itemMargin = (itemProfit/itemSalePrice) * 100;
+        double itemProfit = getItemProfit();
+        double itemMargin = (itemProfit/itemCost) * 100;
         return itemMargin; 
     }
 
+    //to string if needed
     public String toString(){
         return "This is a " + itemName + " located in the " + itemDesc + " aisle. It has a sale price of $" + itemSalePrice;
     }

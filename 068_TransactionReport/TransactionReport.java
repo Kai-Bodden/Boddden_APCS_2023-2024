@@ -1,9 +1,11 @@
 public class TransactionReport {
+    //variables
     private double totalCost = 0;
     private double totalSalePrice = 0;
     private double totalProfit = 0;
     private double totalMargin = 0;
 
+    //mutators?
     public void calcTotalCost(Transaction[] arr){
         for (int i = 0; i < arr.length; i++){
             totalCost = totalCost + arr[i].getItemCost(); 
@@ -29,7 +31,7 @@ public class TransactionReport {
         for (int i = 0; i < arr.length; i++){
             totalMargin = totalMargin + arr[i].getItemMargin();
         }
-        System.out.println("Total sale price of: $" + totalMargin);
+        System.out.println("Total margin of: " + totalMargin + "%");
     }
 
 }
