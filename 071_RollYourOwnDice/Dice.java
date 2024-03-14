@@ -10,7 +10,7 @@ public class Dice {
         return roll;
     }
 
-    public getSides(){
+    public int getSides(){
         return sides;
     }
 }
