@@ -1,30 +1,40 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+
 public class AverageDiceRolls {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Dice diceOne = new Dice(6);
-        ArrayList<Integer[]> averageRoll = new ArrayList<>();
-        String userInput = "";
-        boolean userChoice = false;
+        ArrayList<Integer> averageRoll = new ArrayList<>();
+        String userInput = "y";
 
-        System.out.println("Roll? y or n");
+       while (userInput.equals("y")){
+        System.out.println("Roll? y or n?");
         userInput = scan.nextLine();
-
-        if(userInput == "y"){
-            userChoice = true;
+    
+        if(userInput.equals("y")){
             diceOne.roll();
-            System.out.println(diceOne.getCurrentValue());
+            int rollValue = diceOne.getCurrentValue();
+            averageRoll.add(rollValue);
+            System.out.println("Dice Roll of: " + rollValue);
         }
         else{
             System.out.println("OK");
         }
+    }
 
-
-
-
-
-       
+        //average
+        double total = 0;
+        for(int roll : averageRoll){
+            total += roll;
+        }
+        if(!averageRoll.isEmpty()){
+            double average = total/averageRoll.size();
+            System.out.println("Average roll of: " + average);    
+        }
+        else{
+            System.out.println("no rolls");
+        }
 
     }
 }
