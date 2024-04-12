@@ -10,3 +10,14 @@ public class AnalysisWorkbench {
         System.out.println("SUm of all negative : " + analyze.getSumNegative());
     }
 }
+
+/*
+
+3/3 - Compile/Content
+-Pretty close, but we're missing the print out 
+1/1 - Formatting
+1/1 - Comments
+
+Late - 1
+
+*/
