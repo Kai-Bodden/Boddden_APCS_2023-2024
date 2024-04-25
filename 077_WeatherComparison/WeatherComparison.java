@@ -35,7 +35,7 @@ public class WeatherComparison {
         for (int week = 0; week < weatherTemps.length; week++) {
             double weekSum = 0;
             for (int day = 0; day < weatherTemps[week].length; day++) {
-                weekSum += weatherTemps[day][week];
+                weekSum += weatherTemps[week][day];
             }
             double weekAverage = weekSum / weatherTemps[week].length;
             System.out.println("The average temp for week " + (week + 1) + " was " + weekAverage);
