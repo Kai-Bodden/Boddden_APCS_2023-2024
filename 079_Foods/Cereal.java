@@ -20,7 +20,7 @@ public class Cereal extends Food {
         }
     }
 
-    public void milk(){
-        System.out.println("You have milk now :)");
+    public void addMilk(){
+        System.out.println("You have added milk to the cereal :)");
     }
 }

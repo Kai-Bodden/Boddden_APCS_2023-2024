@@ -18,4 +18,8 @@ public class Food {
     public void buy(){
         System.out.println("You bought a " + name);
     }
+
+    public String toString(){
+        return "This " + name + " expires on " + expDate + " has " + calories + " calories, and weighs " + weight + " grams";
+    } 
 }
