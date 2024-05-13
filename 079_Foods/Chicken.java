@@ -2,12 +2,14 @@ public class Chicken extends Food {
     String cutOfChicken;
     boolean fried;
 
+    //chicken uses food for its basic attributes and adds two new ones
     public Chicken(String expDate, int calories, double weight, String name, String cutOfChicken, boolean fried){
         super(expDate, calories, weight, name);
         this.cutOfChicken = cutOfChicken;
         this.fried = fried;
     }
 
+    //methods
     public void fry(){
         if(fried) {
             System.out.println("Already fried.");
@@ -33,5 +35,9 @@ public class Chicken extends Food {
             System.out.println("Done baking.");
         }
     }
+
+    public String toString(){
+        return "This " + getName() + " " + cutOfChicken + " expires on " + getExpDate() + " has " + getCalories() + " calories, and weighs " + getWeight() + " grams";
+    } 
 
 }
