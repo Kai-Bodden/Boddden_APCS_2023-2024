@@ -17,3 +17,13 @@ public class PolymorphicFoods {
         }
     }
 }
+
+/*
+
+3/3 - Compile/Content
+1/1 - Formatting
+0/1 - Comments
+-I let you slide on the last assignment, but I'm starting to see some pretty weak comments.
+
+
+*/
